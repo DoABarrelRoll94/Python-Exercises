@@ -29,8 +29,8 @@ while guess != 'exit' or guess != randNum:                  # while loop will go
         
     else:
         print("Correct! It only took you %d tries!" % count)
-    
-        
+        count = 0
+        randNum = random.randint(1,9)
     
     
     
